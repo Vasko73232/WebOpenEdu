@@ -1,0 +1,134 @@
+body {
+    /*  Пример подключения изображения из папки  img */
+    background-image: url("../img/A-Plus-Index.png");
+    background-repeat: no-repeat;
+    background-position: center top;
+
+}
+.container{
+    width:980px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+.main-header {
+    padding-top: 65px;
+    padding-bottom: 155px;
+}
+.header-top{
+    margin-bottom: 120px;
+}
+.header-top::after{
+    display: table;
+    clear: both;
+    content: "";
+}
+.logo{
+    float:left;
+    min-height: 100px;
+
+    width: 180px;
+}
+.main-menu{
+    float:right;
+    min-height: 40px;
+
+    width: 640px;
+}
+.promo{
+    width: 450px;
+    min-height: 330px;
+}
+.features{
+    padding-top: 85px;
+    padding-bottom: 75px;
+}
+.features-item{
+    width: 300px;
+    min-height: 90px;
+    float:left;
+    margin-right: 40px;
+}
+.features .container::after{
+    display: table;
+    clear: both;
+    content: "";
+}
+.features-item:last-child{
+    margin-right: 0;
+}
+.feedback{
+    padding-top: 85px;
+    padding-bottom: 80px;
+}
+.feedback-title,
+.contacts-title{
+    margin: 0;
+    margin-bottom: 65px;
+
+    min-height: 50px;
+}
+.feedback-item::after{
+    display: table;
+    clear: both;
+    content: "";
+}
+.feedback-author{
+    float:left;
+    padding-left: 170px;
+    width: 130px;
+
+    min-height: 140px;
+
+}
+.feedback-content{
+    float:right;
+    width: 640px;
+    margin: 0;
+
+    min-height: 140px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.gl0, .gl1, .gl2, .gl3 {
+    position: relative;
+}
+
+.gl0 {
+    box-shadow: inset 0 0 0 2px blue;
+    background: rgba(0, 0, 255, .1);
+}
+
+.gl1 {
+    box-shadow: 0 0 0 2px green;
+    background: rgba(0, 128, 0, .1);
+}
+
+.gl2 {
+    box-shadow: 0 0 0 2px rgb(255, 45, 82);
+    background: rgba(255, 45, 82, .1);
+}
+
+.gl3 {
+    box-shadow: 0 0 0 2px rgb(234, 255, 45);
+    background: rgba(234, 255, 45, .1);
+}
